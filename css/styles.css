@@ -1,0 +1,57 @@
+/* 212529 */
+:root {
+    --light: #ddd;
+    --dark: #202124;
+}
+
+html,
+body {
+    background: var(--dark);
+    color: var(--light);
+}
+
+html[data-theme="light"] {
+    --dark: #ddd;
+    --light: #202124;
+}
+
+.light {
+    color: var(--light);
+}
+
+.dark {
+    color: var(--dark);
+}
+
+.done {
+    color: red;
+}
+
+.plus-button {
+    color: var(--light);
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+
+.plus-button:hover {
+    background-color: var(--light);
+    color: #027bff;
+    transition: 0.5s ease;
+}
+
+.btn-icon {
+    color: var(--light);
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+
+.btn-icon:hover {
+    background-color: var(--light);
+    color: #027bff;
+    transition: 0.5s ease;
+}
+
+button i p {
+    font: 1em 'Nunito', sans-serif;
+    margin-bottom: 0em;
+}
